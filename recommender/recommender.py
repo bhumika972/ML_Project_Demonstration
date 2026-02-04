@@ -113,9 +113,3 @@ print(encoded_df.info())
 #     "biggest_distraction", "motivation", "study_challenge", "study_time"
 # ]
 # df = pd.get_dummies(df, columns=nominal_cols, drop_first=True)
-#
-# df["fixed_schedule"] = df["fixed_schedule"].map({
-#     "Yes": 1,
-#     "No": 0,
-#     "Sometimes": 0.5   # industry trick: partial behavior
-# })
